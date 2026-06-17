@@ -2,50 +2,58 @@
 <html lang="en">
 <head>
     <title>Document</title>
+    <!-- here to conect tailwind CND  -->
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+<!-- ALL page bg-color white becose looking greeat and any color looking good -->
 <body class="bg-white font-sans antialiased text-gray-900">
+    <!-- nav is sticky no move our position and looking cool -->
 <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 py-3">
     <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <div class="text-xl font-bold flex items-center gap-1">
             <span> 🤖 </span> Project
 </div>
+<!-- here link tag use 
+ and hover to change color  -->
      <div class="hidden md:flex items-center space-x-8">
-            <a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Product</a>
-            <a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Solutions</a>
+ <a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Product</a>
+<a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Solutions</a>
             
-            <a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Resources</a>
+ <a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Resources</a>
             <a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Pricing</a>
 <a href="#" class="text-sm font-semibold text-gray-900">Log in</a>
-            <a href="#"
+       <a href="#"
  class="bg-[#111827] text-white px-4 py-2 rounded text-sm font-medium hover:bg-green-800 transition-colors">
                 Get AI free
 </a>
 </div>
     </div>
 </nav>
-<section class="relative bg-linear-to-b from-orange-50 to-white min-h-screen pt-20 pb-24 overflow-hidden">
+<section class="relative bg-gradient-to-b from-orange-50 to-white min-h-screen pt-20 pb-24 overflow-hidden">
     <div class="max-w-6xl mx-auto px-6 text-center">
+        <!-- write out pann and discuse what to do why use this appllicaton  -->
  <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight">
             Write, plan, share.<br>
             With AI at your side.
      </h1>
         <p class="mt-6 text-gray-500 text-lg max-w-2xl mx-auto">
-            It is the connected workspace where better, faster work happens. Now with AI.
+      It is the connected workspace where better, faster work happens. Now with AI.
         </p>
+        <!-- set highy and width  -->
         <div class="relative mt-10 mx-auto w-[340px] h-[48px]">
-            <a href="#"
+ <a href="#"
      class="absolute left-0 top-0 bg-[#172035e2] text-white px-6 py-3 rounded text-sm font-medium hover:bg-gray-800 transition-colors flex items-center shadow-md">
-                Get AI free <span class="ml-2 font-normal">→</span>
+     Get AI free <span class="ml-2 font-normal">→</span>
     </a>
+    <!-- creat like big btn and hover to change color -->
     <a href="#"
-                class="absolute right-0 top-0 bg-blue-600 text-white px-6 py-3 rounded text-sm font-medium hover:bg-blue-500 transition-colors shadow-md">
-                Request a demo
+      class="absolute right-0 top-0 bg-blue-600 text-white px-6 py-3 rounded text-sm font-medium hover:bg-blue-500 transition-colors shadow-md">
+         Request a demo
             </a>
         </div>
         <div class="relative mt-20 max-w-4xl mx-auto z-10">
-<img src="work dasebord.jpg"
-                alt="Workspace Dashboard"
+<img src="https://www.shutterstock.com/shutterstock/photos/2759673353/display_1500/stock-photo-startup-company-employee-working-together-analyzing-bi-dashboard-paper-on-financial-data-report-2759673353.jpg"
+                alt="Team of professionals reviewing a financial dashboard and data report together in a bright modern office workspace"
                 class="w-full h-auto rounded-lg shadow-2xl border border-gray-200 relative z-10 object-cover opacity-90">
  <div
                 class="absolute top-[30%] -left-12 md:-left-24 z-20 bg-white p-4 rounded shadow-xl flex items-center space-x-3 w-56 transform -translate-y-1/2 hover:bg-blue-300">
@@ -53,6 +61,7 @@
                     📋
      </div>
      <div class="text-left">
+        <!-- here to define how many task to complite  -->
  <p class="text-[16px] font-bold text-gray-900">Tasks</p>
      <p class="text-[12px] text-green-700 mt-0.5">12 tasks completed today</p>
      </div>
@@ -69,15 +78,14 @@
  </div>
             </div>
             <div class="absolute bottom-[20%] -right-8 md:-right-16 z-20 bg-white p-4 rounded shadow-xl w-48 hover:bg-green-300">
-                        <p class="text-xs font-bold text-gray-900 text-left mb-2">Team Activity</p>
+    <p class="text-xs font-bold text-gray-900 text-left mb-2">Team Activity</p>
         <div class="flex items-center space-x-2 text-left">
      <div class="flex -space-x-2">
+        <!-- here to show to curent tiem how many pepole online this time 
+         loking pic  -->
      <img class="w-6 h-6 rounded-full border-2 border-white object-cover"
     src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=facearea&facepad=2&w=100&h=100&q=80"
         alt="User 1">
-    <img class="w-6 h-6 rounded-full border-2 border-white object-cover"
-    src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=facearea&facepad=2&w=100&h=100&q=80"
-    alt="User 2">
   <img class="w-6 h-6 rounded-full border-2 border-white object-cover"
    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=facearea&facepad=2&w=100&h=100&q=80"
     alt="User 3">
@@ -86,16 +94,14 @@
         </div>
     </div>
         </div>
-
     </div>
 </section>
-
-<button
-    class="fixed bottom-6 right-6 z-50 bg-[#03297c] text-white p-4 rounded shadow-2xl hover:bg-blue-800 transition-colors flex items-center justify-center">
-    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2Z" />
-    </svg>
+<!-- here creat button like any problem phase to conect and chat 
+ massages  -->
+<button class="fixed bottom-5 right-5">
+    <img src="chat.gif" alt="Chat Support" class="w-16 h-16">
 </button>
+<!-- java script  -->
     <script src="script.js"></script>
 </body>
 </html>
