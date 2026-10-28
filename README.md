@@ -1,13 +1,4 @@
-## Learning Process
 
-While building this project I faced some issues:
-
-1. Initially I used `bg-linear-to-b` but later learned that the correct Tailwind class is `bg-gradient-to-b`.
-2. I had difficulty understanding the difference between relative and absolute positioning.
-3. I learned that absolute elements are positioned relative to the nearest parent with relative.
-4. I tested sticky and fixed positioning multiple times before achieving the desired result.
-
-These mistakes helped me understand Tailwind CSS positioning better.
 # Hero Landing Page – Project Workspace
 
 ## Overview
